@@ -71,22 +71,41 @@ nav a {
   margin-top: 16px;
 }
 
-.banner{
+.banner {
   display: flex;
   gap: 138px;
   margin-top: 50px;
   align-items: center;
 }
 
-.camera-bg{
+.camera-bg {
   background-image: url(../images/Circle\ design.svg);
   background-repeat: no-repeat;
+   background-size: cover;
 }
+
+/* social-media */
+.social-media {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 1110px;
+  gap: 60px;
+  margin-top: 80px;
+}
+
+
+
+
+
+
+
 
 
 
 /* mobile device responsive */
 @media screen and (max-width: 576px) {
+  /* nav-var */
+
   nav {
     /* display: none; */
     flex-direction: column;
@@ -97,29 +116,78 @@ nav a {
   .nav-list {
     display: none;
   }
-  .banner{
+
+  /* Banner */
+  .banner {
     flex-direction: column-reverse;
     text-align: center;
   }
- 
- .camera-bg {
-  width: 420px;
- }
-  .banner h1{
+
+  .camera-bg {
+    background-size: cover;
+
+  }
+
+  .camera-bg img {
+    width: 350px;
+  }
+
+  .banner h1 {
     font-size: 30px;
   }
-  .banner p{
-  width: 400px;
-  margin-top: 25px;
+
+  .banner p {
+    width: 400px;
+    margin-top: 25px;
+  }
+
+  /* social media */
+  .social-media {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 400px;
+    gap: 10px;
+    align-items: center;
   }
 
 }
 
 
+
+
+
+
 /* Tablet device responsive */
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
+  /* nav-ver */
+
+
   nav {
     /* flex-direction: column; */
     gap: 200px;
   }
+
+  /* Banner */
+  .camera-bg {
+    width: 300px;
+  }
+
+  .banner h1 {
+    font-size: 40px;
+  }
+
+  .banner p {
+    width: 400px;
+  }
+
+  /* social media */
+  .social-media{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    padding-left: 50px;
+  }
+
 }
