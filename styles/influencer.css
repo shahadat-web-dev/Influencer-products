@@ -177,21 +177,49 @@ nav a {
   margin-top: 16px;
 }
 
-.see-more-parent{
+.see-more-parent {
   text-align: end;
   max-width: 1560px;
   margin-top: 50px;
 }
+
 .see-more {
   font-size: 16px;
   font-weight: 700;
   color: #E02C6D;
 }
 
-.gear-images img{
-    width: 400px;
-  }
+.gear-images img {
+  width: 400px;
+}
 
+
+/* footer section */
+.footer-container {
+  color: white;
+  background-color: #0A0826;
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 100px;
+  width: 100%;
+
+}
+
+.footer-container h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer-container h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.social-icon{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
 
 
 
@@ -269,14 +297,13 @@ nav a {
     width: 300px;
   }
 
-  .join-now-btn{
+  .join-now-btn {
     margin-bottom: 40px;
   }
 
-  .gear-images img{
+  .gear-images img {
     width: 350px;
   }
-
 }
 
 
@@ -332,13 +359,17 @@ nav a {
     margin-left: 80px;
 
   }
-  .featured-right-site h2{
+
+  .featured-right-site h2 {
     font-size: 30px;
   }
 
-  .featured-right-site p{
+  .featured-right-site p {
     margin: 0;
   }
 
-
+  /* footer section */
+  .footer-container{
+    margin-left: 95px;
+  }
 }
