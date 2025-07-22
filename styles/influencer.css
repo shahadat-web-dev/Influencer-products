@@ -188,6 +188,10 @@ nav a {
   color: #E02C6D;
 }
 
+.gear-images img{
+    width: 400px;
+  }
+
 
 
 
@@ -268,6 +272,11 @@ nav a {
   .join-now-btn{
     margin-bottom: 40px;
   }
+
+  .gear-images img{
+    width: 350px;
+  }
+
 }
 
 
@@ -322,6 +331,13 @@ nav a {
     gap: 60px;
     margin-left: 80px;
 
+  }
+  .featured-right-site h2{
+    font-size: 30px;
+  }
+
+  .featured-right-site p{
+    margin: 0;
   }
 
 
